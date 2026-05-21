@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .about-me, .education, .skills, .interests, .projects {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #337ab7;
+        }
+
+        a:hover {
+            color: #23527c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>Tobi</h2>
+            <p>Hello, I'm Tobi, a software engineering student at Miva University. I'm passionate about building innovative solutions and learning new technologies.</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <p>Miva University - Software Engineering (Current)</p>
+        </section>
+        <section class="skills">
+            <h2>Programming Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <section class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Web Development</li>
+                <li>Cybersecurity</li>
+                <li>Data Science</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1: AI-Powered Chatbot</a></li>
+                <li><a href="#">Project 2: Web Development Project</a></li>
+                <li><a href="#">Project 3: Machine Learning Model</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
